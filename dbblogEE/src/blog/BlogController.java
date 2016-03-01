@@ -4,7 +4,10 @@ import javax.resource.cci.Connection;
 import javax.resource.cci.ResultSet;
 
 import org.eclipse.persistence.internal.oxm.schema.model.List;
+
+import com.mysql.jdbc.Statement;
 //aaaaa
+//bbbbb
 /**
 * Blogを操作するビジネスロジック
 */
