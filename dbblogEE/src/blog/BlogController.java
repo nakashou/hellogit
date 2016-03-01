@@ -1,12 +1,10 @@
 package blog;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.List;
+import javax.resource.cci.Connection;
+import javax.resource.cci.ResultSet;
 
+import org.eclipse.persistence.internal.oxm.schema.model.List;
+//aaaaa
 /**
 * Blogを操作するビジネスロジック
 */
@@ -119,7 +117,7 @@ public class BlogController {
         }
         return topics;
     }
-
+//aaaaa
     public static void main(String[] args) {
         BlogController ctrl = BlogController.getInstance();
         List<Topic> topics = ctrl.getTopics();
